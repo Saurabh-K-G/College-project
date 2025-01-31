@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - G-Basket</title>
+    <link rel="stylesheet" href="login.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Login Section -->
+    <section class="login-section">
+        <div class="login-container">
+            <h2>Login to G-basket</h2>
+
+            <!-- Login Form -->
+            <form action="dashboard.html" method="POST" class="login-form">
+                <div class="input-container">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-container">
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                </div>
+
+                <div class="actions">
+                    <input type="submit" value="Login" class="btn">
+                    <p>Don't have an account? <a href="www.G-basket.com">Create one</a></p>
+                </div>
+            </form>
+
+            <!-- Forgot Password Link -->
+            <div class="forgot-password">
+                <a href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </section>
+
+<!-- custom js file link -->
+    <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/* Basic styling for the login page */
+body {
+    background: url(image/bnb.jpg) no-repeat;
+    background-size: cover;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #f9990c;
+    padding: 3rem;
+    border-radius: 8rem;
+    box-shadow: 0 25px 50px rgb(235 141 24 / 48%);
+    width: 100%;
+    max-width: 250px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    color:#353b36;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0e99d1;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #271f23;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #eee;
+    color:#000000;
+}
+
+.actions {
+    text-align: center;
+    color:#110f0f;
+}
+
+.actions a{
+    text-align: center;
+    color:#ffffff;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a:hover {
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
